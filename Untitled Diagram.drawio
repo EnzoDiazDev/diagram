@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T21:01:34.953Z" agent="5.0 (X11)" etag="y7vZH24RKwQfdDfEFxOQ" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T21:22:18.880Z" agent="5.0 (X11)" etag="7oSCmWiPCZlMa_H7JdXK" version="14.0.1" type="github">
   <diagram id="ip1gu2oFggU7UtpsSIyP" name="Page-1">
-    <mxGraphModel dx="1633" dy="1628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1800" dy="1723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -530,6 +530,32 @@
         </mxCell>
         <mxCell id="VdjnM8DqXwYymBI1JdbW-91" value="opt[content.startsWith(prefix)]" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=30;" vertex="1" parent="1">
           <mxGeometry x="1640" y="1440" width="680" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-128" value="Ping" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="1760" width="120" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VdjnM8DqXwYymBI1JdbW-128">
+          <mxGeometry x="55" y="70" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-130" value="notify(command, message, ...args)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;dashed=1;" edge="1" target="VdjnM8DqXwYymBI1JdbW-129" parent="VdjnM8DqXwYymBI1JdbW-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-150" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-133" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VdjnM8DqXwYymBI1JdbW-128">
+          <mxGeometry x="60" y="140" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-134" value="exe(message, ...args)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;dashed=1;" edge="1" target="VdjnM8DqXwYymBI1JdbW-133" parent="VdjnM8DqXwYymBI1JdbW-128" source="VdjnM8DqXwYymBI1JdbW-129">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="120" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="120" />
+              <mxPoint x="90" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-132" value="opt[command == this.name]" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=30;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1840" width="200" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
