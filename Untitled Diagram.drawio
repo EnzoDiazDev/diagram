@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T18:55:35.008Z" agent="5.0 (X11)" etag="rnOC_G6iuxztoDK-L3lj" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T18:46:25.675Z" agent="5.0 (X11)" etag="aCgKm3XVM6u2m8eR2wgp" version="14.0.1" type="github">
   <diagram id="ip1gu2oFggU7UtpsSIyP" name="Page-1">
-    <mxGraphModel dx="2249" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2012" dy="1839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -191,8 +191,8 @@
         <mxCell id="4rB04aQ20s9kYNR3CybH-50" value="&lt;div&gt;any&lt;/div&gt;&lt;div&gt;event&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="320" y="730" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4rB04aQ20s9kYNR3CybH-91" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Ping&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;RO name:string&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+ notify(command:string, ...args:string[])&lt;br&gt;&lt;/div&gt;&lt;div&gt;- exe():void&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1770" y="735" width="230" height="130" as="geometry" />
+        <mxCell id="4rB04aQ20s9kYNR3CybH-91" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Ping&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;&amp;nbsp;RO name:string&lt;/div&gt;&lt;div&gt;&amp;nbsp;RO description:string&lt;/div&gt;&lt;div&gt;- _observable:CommandHandlerObservable&lt;br&gt;&lt;/div&gt;- enable:boolean&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+ notify(command:string, message:Message ...args:string[])&lt;/div&gt;&lt;div&gt;+ config(command:string, message:Message, options:Object)&lt;/div&gt;&lt;div&gt;+ set observable(observable:CommandHandlerObservable)&lt;/div&gt;&lt;div&gt;- exe():void&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="760" width="360" height="170" as="geometry" />
         </mxCell>
         <mxCell id="4rB04aQ20s9kYNR3CybH-92" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="4rB04aQ20s9kYNR3CybH-91" target="4rB04aQ20s9kYNR3CybH-90" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -268,8 +268,8 @@
             <mxPoint x="987" y="1230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4rB04aQ20s9kYNR3CybH-90" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;OnCommandObserver&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO name:string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;+ notify(command:string, ...args:string[])" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1775" y="530" width="220" height="140" as="geometry" />
+        <mxCell id="4rB04aQ20s9kYNR3CybH-90" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommandHandlerObserver&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO description:string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+ notify(command:string, message:Message ...args:string[])&lt;/div&gt;&lt;div&gt;+ config(command:string, message:Message, options:Object)&lt;/div&gt;&lt;div&gt;+ set observable(observable:CommandHandlerObservable)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="520" width="360" height="160" as="geometry" />
         </mxCell>
         <mxCell id="4rB04aQ20s9kYNR3CybH-113" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Ready&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;br&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div&gt;+ notify()&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;glass=0;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1770" y="970" width="230" height="90" as="geometry" />
@@ -295,10 +295,10 @@
             <mxPoint x="1720" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VdjnM8DqXwYymBI1JdbW-3" value="&lt;div&gt;notify&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="4rB04aQ20s9kYNR3CybH-79" target="4rB04aQ20s9kYNR3CybH-91">
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-3" value="&lt;div&gt;notify&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="4rB04aQ20s9kYNR3CybH-79">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1440" y="520" as="sourcePoint" />
-            <mxPoint x="1520" y="520" as="targetPoint" />
+            <mxPoint x="1600" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VdjnM8DqXwYymBI1JdbW-6" value="OnMessage" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -324,7 +324,7 @@
             <mxPoint x="160" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VdjnM8DqXwYymBI1JdbW-7" value="CommanParser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-7" value="CommandParser" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="1220" width="100" height="510" as="geometry" />
         </mxCell>
         <mxCell id="VdjnM8DqXwYymBI1JdbW-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VdjnM8DqXwYymBI1JdbW-7">
@@ -429,13 +429,13 @@
             <mxPoint x="620" y="1610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VdjnM8DqXwYymBI1JdbW-64" value="on_command" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-64" value="&lt;div&gt;OnCommand&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1150" y="1220" width="100" height="510" as="geometry" />
         </mxCell>
         <mxCell id="VdjnM8DqXwYymBI1JdbW-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="VdjnM8DqXwYymBI1JdbW-64">
           <mxGeometry x="45" y="450" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VdjnM8DqXwYymBI1JdbW-74" value="handle(command_parsed)" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;" edge="1" parent="1" source="VdjnM8DqXwYymBI1JdbW-72" target="VdjnM8DqXwYymBI1JdbW-65">
+        <mxCell id="VdjnM8DqXwYymBI1JdbW-74" value="handle(command, ...args)" style="html=1;verticalAlign=bottom;endArrow=block;dashed=1;" edge="1" parent="1" source="VdjnM8DqXwYymBI1JdbW-72" target="VdjnM8DqXwYymBI1JdbW-65">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="620" y="1670" as="sourcePoint" />
             <mxPoint x="700" y="1670" as="targetPoint" />
