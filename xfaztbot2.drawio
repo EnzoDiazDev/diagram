@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T22:38:25.597Z" agent="5.0 (X11)" etag="7n9eVmVelLkb_fZQ9ZmP" version="14.1.2" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-12-26T23:09:29.119Z" agent="5.0 (X11)" etag="r3VEidfwse8ghh7m4rU4" version="14.1.2" type="github" pages="5">
   <diagram id="7QpzADUBKZK3mpQBf36s" name="EventChannel">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,6 +120,26 @@
         </mxCell>
         <mxCell id="C3Y4KMIKCKpgDiSNy8ME-3" value="&lt;div&gt;«bind»&lt;/div&gt;&lt;div&gt;&amp;lt;&quot;command&quot;&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ERKa3Ph6raWFbvGppuxh-1">
           <mxGeometry x="310" y="290" width="70" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gtboi6FLqWyW4IXSrcVV" name="Concrete Command">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="RSo_SG1a4pmvWLNfQN1A-0" />
+        <mxCell id="RSo_SG1a4pmvWLNfQN1A-1" parent="RSo_SG1a4pmvWLNfQN1A-0" />
+        <mxCell id="EboPbNesNyDLAtd-KdHI-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Command&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO event_type:&quot;command&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;name:string&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;description:string&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notified(command_name:string, message:Message, ...args:string[]):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ configured?(command_name:string, text_channel:TextChannel, config:object):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ to_string():string&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;# is_for_this(command_name:string):boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;# &lt;i&gt;exectued(message:Message, ...args:string[]):void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;/i&gt; &lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RSo_SG1a4pmvWLNfQN1A-1">
+          <mxGeometry x="80" y="40" width="480" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="s9vaRAo1HdSCekXYpzXf-0" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RSo_SG1a4pmvWLNfQN1A-1" source="s9vaRAo1HdSCekXYpzXf-1" target="EboPbNesNyDLAtd-KdHI-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="250" y="320" as="sourcePoint" />
+            <mxPoint x="410" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9vaRAo1HdSCekXYpzXf-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Ping&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO description:string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# executed(message:Message):void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RSo_SG1a4pmvWLNfQN1A-1">
+          <mxGeometry x="200" y="400" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
