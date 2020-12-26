@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T22:09:31.332Z" agent="5.0 (X11)" etag="YASs3Wb5_KFjDVNMSPui" version="14.1.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-12-26T22:38:25.597Z" agent="5.0 (X11)" etag="7n9eVmVelLkb_fZQ9ZmP" version="14.1.2" type="github" pages="4">
   <diagram id="7QpzADUBKZK3mpQBf36s" name="EventChannel">
     <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,6 +97,29 @@
         </mxCell>
         <mxCell id="qY7EdxqaULWiW6BcnHob-28" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="woOWJBf1wRGeMJLq_DPc-1">
           <mxGeometry x="650" y="180" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2x9kFq5jWDTs8XASJYAq" name="Command">
+    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ERKa3Ph6raWFbvGppuxh-0" />
+        <mxCell id="ERKa3Ph6raWFbvGppuxh-1" parent="ERKa3Ph6raWFbvGppuxh-0" />
+        <mxCell id="C3Y4KMIKCKpgDiSNy8ME-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Suscriptor&amp;lt;Event&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;event_type:Event&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# channel?:EventChannel&amp;lt;Event&amp;gt;&lt;br&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ set event_channel(event_channel:EventChannel&amp;lt;Event&amp;gt;)&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ &lt;i&gt;notified(...args:BotEvents[Event]):void&lt;/i&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ERKa3Ph6raWFbvGppuxh-1">
+          <mxGeometry x="100" y="80" width="360" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C3Y4KMIKCKpgDiSNy8ME-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ERKa3Ph6raWFbvGppuxh-1" source="C3Y4KMIKCKpgDiSNy8ME-0" target="C3Y4KMIKCKpgDiSNy8ME-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="430" as="sourcePoint" />
+            <mxPoint x="220" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C3Y4KMIKCKpgDiSNy8ME-2" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Command&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;event_type:&quot;command&quot;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;name:string&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;description:string&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notified(command_name:string, message:Message, ...args:string[]):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ configured?(command_name:string, text_channel:TextChannel, config:object):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ to_string():string&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;# is_for_this(command_name:string):boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;# &lt;i&gt;exectued(message:Message, ...args:string[]):void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;/i&gt; &lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="ERKa3Ph6raWFbvGppuxh-1">
+          <mxGeometry x="40" y="360" width="480" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="C3Y4KMIKCKpgDiSNy8ME-3" value="&lt;div&gt;«bind»&lt;/div&gt;&lt;div&gt;&amp;lt;&quot;command&quot;&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ERKa3Ph6raWFbvGppuxh-1">
+          <mxGeometry x="310" y="290" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
