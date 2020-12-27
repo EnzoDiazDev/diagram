@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T23:48:00.364Z" agent="5.0 (X11)" etag="CkFanTgV8fkJER14A1K-" version="14.1.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2020-12-27T00:46:30.977Z" agent="5.0 (X11)" etag="C9hJOagRsJVSRY_fm-O9" version="14.1.2" type="github" pages="7">
   <diagram id="7QpzADUBKZK3mpQBf36s" name="EventChannel">
-    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0TpvV7MQDvvR2N2ql4YP-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;EventChannel&amp;lt;Event&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;event_type:Event&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO suscriptors:Set&amp;lt;Suscriptor&amp;lt;Event&amp;gt;&amp;gt;&lt;i&gt; &lt;br&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# sender:object &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ constructor(sender:object)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ add_suscriptor(suscriptor:Suscriptor&amp;lt;Event&amp;gt;):this&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ remove_suscriptor(suscriptor:Suscriptor&amp;lt;Event&amp;gt;):this&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notify_all(...args:BotEvents[Event]):void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="0TpvV7MQDvvR2N2ql4YP-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;EventChannel&amp;lt;Event&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;event_type:Event&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO suscriptors:Set&amp;lt;Suscriptor&amp;lt;Event&amp;gt;&amp;gt;&lt;i&gt; &lt;br&gt;&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# sender:object &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ constructor(sender:object)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ add_suscriptor(suscriptor:Suscriptor&amp;lt;Event&amp;gt;):this&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ remove_suscriptor(suscriptor:Suscriptor&amp;lt;Event&amp;gt;):this&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notify_all(...args:BotEvents[Event]):void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0TpvV7MQDvvR2N2ql4YP-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="0TpvV7MQDvvR2N2ql4YP-7" target="0TpvV7MQDvvR2N2ql4YP-5">
+        <mxCell id="0TpvV7MQDvvR2N2ql4YP-6" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="0TpvV7MQDvvR2N2ql4YP-7" target="0TpvV7MQDvvR2N2ql4YP-5" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="140" y="320" as="sourcePoint" />
             <mxPoint x="370" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0TpvV7MQDvvR2N2ql4YP-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;ReadyChannel&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;event_type:&quot;ready&quot;&lt;/i&gt; &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="0TpvV7MQDvvR2N2ql4YP-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;ReadyChannel&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;event_type:&quot;ready&quot;&lt;/i&gt; &lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0TpvV7MQDvvR2N2ql4YP-9" value="&lt;div&gt;«bind»&lt;/div&gt;&lt;div&gt;&amp;lt;&quot;ready&quot;&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="0TpvV7MQDvvR2N2ql4YP-9" value="&lt;div&gt;«bind»&lt;/div&gt;&lt;div&gt;&amp;lt;&quot;ready&quot;&amp;gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="330" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
@@ -125,20 +125,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gtboi6FLqWyW4IXSrcVV" name="Concrete Command">
-    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="RSo_SG1a4pmvWLNfQN1A-0" />
         <mxCell id="RSo_SG1a4pmvWLNfQN1A-1" parent="RSo_SG1a4pmvWLNfQN1A-0" />
-        <mxCell id="EboPbNesNyDLAtd-KdHI-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Command&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO event_type:&quot;command&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;name:string&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;description:string&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notified(command_name:string, message:Message, ...args:string[]):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ configured?(command_name:string, text_channel:TextChannel, config:object):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ to_string():string&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;# is_for_this(command_name:string):boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;# &lt;i&gt;exectued(message:Message, ...args:string[]):void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;/i&gt; &lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RSo_SG1a4pmvWLNfQN1A-1">
+        <mxCell id="EboPbNesNyDLAtd-KdHI-0" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;Command&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;{abstract}&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO event_type:&quot;command&quot;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;name:string&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO &lt;i&gt;description:string&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ notified(command_name:string, message:Message, ...args:string[]):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ configured?(command_name:string, text_channel:TextChannel, config:object):void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ to_string():string&lt;br&gt;&lt;/p&gt;&lt;div&gt;&amp;nbsp;# is_for_this(command_name:string):boolean&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;# &lt;i&gt;exectued(message:Message, ...args:string[]):void&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;&lt;/i&gt; &lt;br&gt;&lt;/div&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="RSo_SG1a4pmvWLNfQN1A-1" vertex="1">
           <mxGeometry x="80" y="40" width="480" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="s9vaRAo1HdSCekXYpzXf-0" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RSo_SG1a4pmvWLNfQN1A-1" source="s9vaRAo1HdSCekXYpzXf-1" target="EboPbNesNyDLAtd-KdHI-0">
+        <mxCell id="s9vaRAo1HdSCekXYpzXf-0" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="RSo_SG1a4pmvWLNfQN1A-1" source="s9vaRAo1HdSCekXYpzXf-1" target="EboPbNesNyDLAtd-KdHI-0" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="250" y="320" as="sourcePoint" />
             <mxPoint x="410" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s9vaRAo1HdSCekXYpzXf-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Ping&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO description:string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# executed(message:Message):void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="RSo_SG1a4pmvWLNfQN1A-1">
+        <mxCell id="s9vaRAo1HdSCekXYpzXf-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Ping&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO name:string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;RO description:string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;# executed(message:Message):void&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="RSo_SG1a4pmvWLNfQN1A-1" vertex="1">
           <mxGeometry x="200" y="400" width="240" height="120" as="geometry" />
         </mxCell>
       </root>
@@ -172,6 +172,60 @@
             <Array as="points">
               <mxPoint x="370" y="190" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a1vQjU9j_5RFtNxHggeR" name="Comunicación comandos">
+    <mxGraphModel dx="868" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-0" />
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-1" parent="JLS6NsFeKwqoNJNf5g95-0" />
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-2" value="Command A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="JLS6NsFeKwqoNJNf5g95-1">
+          <mxGeometry x="210" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JLS6NsFeKwqoNJNf5g95-2">
+          <mxGeometry x="45" y="60" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-6" value="notified(command_name, message, ...args)" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="JLS6NsFeKwqoNJNf5g95-5" parent="JLS6NsFeKwqoNJNf5g95-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JLS6NsFeKwqoNJNf5g95-2">
+          <mxGeometry x="50" y="90" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-11" value="executed(message, ...args)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="JLS6NsFeKwqoNJNf5g95-10" parent="JLS6NsFeKwqoNJNf5g95-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="70" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-3" value="&lt;div&gt;Command&lt;/div&gt;&lt;div&gt;Channel&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="JLS6NsFeKwqoNJNf5g95-1">
+          <mxGeometry x="570" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JLS6NsFeKwqoNJNf5g95-3">
+          <mxGeometry x="45" y="120" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-4" value="&lt;div&gt;Command B&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="JLS6NsFeKwqoNJNf5g95-1">
+          <mxGeometry x="850" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="wec0r2NIva8XCj9jBCGb-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="JLS6NsFeKwqoNJNf5g95-4">
+          <mxGeometry x="45" y="150" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JLS6NsFeKwqoNJNf5g95-12" value="configure_command(command_name, text_channel, config)" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0.971;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="JLS6NsFeKwqoNJNf5g95-1" source="JLS6NsFeKwqoNJNf5g95-10" target="JLS6NsFeKwqoNJNf5g95-13">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="300" y="210" as="sourcePoint" />
+            <mxPoint x="380" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wec0r2NIva8XCj9jBCGb-0" value="configured(command_name, text_channel, config)" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="JLS6NsFeKwqoNJNf5g95-1" source="JLS6NsFeKwqoNJNf5g95-13" target="wec0r2NIva8XCj9jBCGb-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="680" y="240" as="sourcePoint" />
+            <mxPoint x="910" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
