@@ -1,133 +1,170 @@
-<mxfile host="app.diagrams.net" modified="2021-06-30T21:56:22.424Z" agent="5.0 (X11)" etag="R3d9OWE8S22KjSlm_U-f" version="14.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-02T20:56:10.747Z" agent="5.0 (X11)" etag="P3iTwblyGzwf00BOAwT5" version="14.8.3" type="github">
   <diagram id="kaIDfWq2is6KySUgENTp" name="Page-1">
-    <mxGraphModel dx="1422" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2500" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="80" width="40" height="80" as="geometry" />
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-9" value="pubic-private key&lt;br&gt;generator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="120" height="680" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="R2GP-VmPaLIOqLiM8zcK-9">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-9" value="pubic-private key&lt;br&gt;generator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="40" width="120" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="R2GP-VmPaLIOqLiM8zcK-9" vertex="1">
           <mxGeometry x="55" y="80" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-12" value="register" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="120" height="680" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-12" value="register" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="360" y="40" width="120" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="R2GP-VmPaLIOqLiM8zcK-12">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="R2GP-VmPaLIOqLiM8zcK-12" vertex="1">
           <mxGeometry x="55" y="160" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-29" value="register with id, public-key" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="R2GP-VmPaLIOqLiM8zcK-28" parent="R2GP-VmPaLIOqLiM8zcK-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-280" y="160" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-13" value="&lt;div&gt;any operation&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="120" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-30" value="&lt;div&gt;server public-key&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="R2GP-VmPaLIOqLiM8zcK-28" parent="R2GP-VmPaLIOqLiM8zcK-12">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-280" y="236" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="R2GP-VmPaLIOqLiM8zcK-13" vertex="1">
+          <mxGeometry x="55" y="319" width="10" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-13" value="&lt;div&gt;any operation&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="40" width="120" height="680" as="geometry" />
-        </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="R2GP-VmPaLIOqLiM8zcK-13">
-          <mxGeometry x="55" y="280" width="10" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-35" value="&lt;div&gt;id (plain), data (encripted with server public-key) &lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="R2GP-VmPaLIOqLiM8zcK-34" parent="R2GP-VmPaLIOqLiM8zcK-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-480" y="280" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-36" value="encrypted response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.25;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="R2GP-VmPaLIOqLiM8zcK-34" parent="R2GP-VmPaLIOqLiM8zcK-13">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-480" y="579" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-44" value="decrypt data with server private-key " style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.124;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="R2GP-VmPaLIOqLiM8zcK-13" target="R2GP-VmPaLIOqLiM8zcK-41">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-44" value="decrypt data with server private-key " style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.124;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="R2GP-VmPaLIOqLiM8zcK-13" target="R2GP-VmPaLIOqLiM8zcK-41" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="60" y="300" as="sourcePoint" />
-            <mxPoint x="140" y="300" as="targetPoint" />
+            <mxPoint x="60" y="340" as="sourcePoint" />
+            <mxPoint x="140" y="339" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="R2GP-VmPaLIOqLiM8zcK-13">
-          <mxGeometry x="60" y="375" width="10" height="40" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="R2GP-VmPaLIOqLiM8zcK-13" vertex="1">
+          <mxGeometry x="60" y="414" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-47" value="process data" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="R2GP-VmPaLIOqLiM8zcK-46" parent="R2GP-VmPaLIOqLiM8zcK-13">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-47" value="process data" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="R2GP-VmPaLIOqLiM8zcK-13" target="R2GP-VmPaLIOqLiM8zcK-46" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="65" y="355" as="sourcePoint" />
+            <mxPoint x="65" y="394" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="95" y="355" />
+              <mxPoint x="95" y="394" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-14" value="database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="960" y="40" width="120" height="680" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-14" value="database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="960" y="40" width="120" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="R2GP-VmPaLIOqLiM8zcK-14">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="R2GP-VmPaLIOqLiM8zcK-14" vertex="1">
           <mxGeometry x="55" y="180" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-25" value="&lt;div&gt;generae pair keys&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R2GP-VmPaLIOqLiM8zcK-8" target="R2GP-VmPaLIOqLiM8zcK-23">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-25" value="&lt;div&gt;generate pair keys&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.116;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YBk2FNRbJx5TyZ4_e6zl-1" target="R2GP-VmPaLIOqLiM8zcK-23" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="80" y="130" as="sourcePoint" />
+            <mxPoint y="120" as="sourcePoint" />
             <mxPoint x="160" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-26" value="public and private keys" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="R2GP-VmPaLIOqLiM8zcK-8">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-26" value="public and private keys" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=-0.033;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="YBk2FNRbJx5TyZ4_e6zl-1" edge="1" source="R2GP-VmPaLIOqLiM8zcK-23">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="210" y="160" as="sourcePoint" />
-            <mxPoint x="130" y="160" as="targetPoint" />
+            <mxPoint x="50" y="150" as="sourcePoint" />
+            <mxPoint x="10" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-37" value="encrypt&lt;br&gt;decrypt" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="760" y="40" width="120" height="680" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-37" value="encrypt&lt;br&gt;decrypt" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="760" y="40" width="120" height="720" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="R2GP-VmPaLIOqLiM8zcK-37">
-          <mxGeometry x="55" y="300" width="10" height="40" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="R2GP-VmPaLIOqLiM8zcK-37" vertex="1">
+          <mxGeometry x="55" y="339" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-38" value="get user public-key by id" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.03;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R2GP-VmPaLIOqLiM8zcK-34" target="R2GP-VmPaLIOqLiM8zcK-42">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-38" value="get user public-key by id" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1;exitY=0.536;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.03;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="R2GP-VmPaLIOqLiM8zcK-34" target="R2GP-VmPaLIOqLiM8zcK-42" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="890" y="290" as="sourcePoint" />
-            <mxPoint x="1010" y="477" as="targetPoint" />
+            <mxPoint x="890" y="329" as="sourcePoint" />
+            <mxPoint x="1010" y="516" as="targetPoint" />
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="1015" y="480" width="10" height="40" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1015" y="519" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-45" value="decrypted data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.014;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R2GP-VmPaLIOqLiM8zcK-41" target="R2GP-VmPaLIOqLiM8zcK-13">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-45" value="decrypted data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.014;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="R2GP-VmPaLIOqLiM8zcK-41" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="800" y="370" as="sourcePoint" />
-            <mxPoint x="720" y="370" as="targetPoint" />
+            <mxPoint x="800" y="409" as="sourcePoint" />
+            <mxPoint x="619.5" y="416.8399999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-39" value="user public key" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.03;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="R2GP-VmPaLIOqLiM8zcK-42" target="R2GP-VmPaLIOqLiM8zcK-34">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-39" value="user public key" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.03;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="R2GP-VmPaLIOqLiM8zcK-42" target="R2GP-VmPaLIOqLiM8zcK-34" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1010" y="510" as="sourcePoint" />
-            <mxPoint x="640" y="520" as="targetPoint" />
+            <mxPoint x="1010" y="549" as="sourcePoint" />
+            <mxPoint x="640" y="559" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-48" value="encrypt response with &lt;br&gt;user public-key " style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.124;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-48" value="encrypt response with &lt;br&gt;user public-key " style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.124;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="620.33" y="560.0000000000001" as="sourcePoint" />
-            <mxPoint x="816.57" y="560.6000000000001" as="targetPoint" />
+            <mxPoint x="620.33" y="599.0000000000001" as="sourcePoint" />
+            <mxPoint x="816.57" y="599.6000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-49" value="encrypted response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.014;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-49" value="encrypted response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.014;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="815.1899999999999" y="597.8399999999999" as="sourcePoint" />
-            <mxPoint x="619.9966666666668" y="597.8399999999999" as="targetPoint" />
+            <mxPoint x="815.1899999999999" y="636.8399999999999" as="sourcePoint" />
+            <mxPoint x="619.9966666666668" y="636.8399999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="815" y="560" width="10" height="40" as="geometry" />
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="815" y="599" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="R2GP-VmPaLIOqLiM8zcK-51" value="save id → public-key" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.1;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="R2GP-VmPaLIOqLiM8zcK-12" target="R2GP-VmPaLIOqLiM8zcK-53">
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-51" value="save id → public-key" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.1;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.225;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="R2GP-VmPaLIOqLiM8zcK-28" target="R2GP-VmPaLIOqLiM8zcK-53" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="470" y="220" as="sourcePoint" />
+            <mxPoint x="430" y="218" as="sourcePoint" />
             <mxPoint x="550" y="220" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-35" value="&lt;div&gt;id (plain), encripted data with server public-key &lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" target="R2GP-VmPaLIOqLiM8zcK-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="359" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-30" value="&lt;div&gt;server public-key&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="279" as="targetPoint" />
+            <mxPoint x="415" y="279" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-29" value="register with id, public-key" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1;exitY=0.235;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="R2GP-VmPaLIOqLiM8zcK-28" edge="1" source="YBk2FNRbJx5TyZ4_e6zl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2GP-VmPaLIOqLiM8zcK-36" value="encrypted response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.25;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.909;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="R2GP-VmPaLIOqLiM8zcK-34" edge="1" target="YBk2FNRbJx5TyZ4_e6zl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-4" value="encrypt data with server public-key" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.7;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.008;exitY=0.354;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="YBk2FNRbJx5TyZ4_e6zl-3" parent="1" source="YBk2FNRbJx5TyZ4_e6zl-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="280" as="sourcePoint" />
+            <mxPoint x="-90" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-5" value="encrypted data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" source="YBk2FNRbJx5TyZ4_e6zl-6" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79" y="359" as="targetPoint" />
+            <mxPoint x="-98" y="359" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-6" value="encrypt&lt;br&gt;decrypt" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="40" width="120" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="YBk2FNRbJx5TyZ4_e6zl-6">
+          <mxGeometry x="55" y="239" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-8" value="decrypt response with user private-key" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.7;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.008;exitY=0.354;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="YBk2FNRbJx5TyZ4_e6zl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80.96000000000004" y="657.72" as="sourcePoint" />
+            <mxPoint x="-90" y="657" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-9" value="decrypted response" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="84.5" y="710" as="targetPoint" />
+            <mxPoint x="-255" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YBk2FNRbJx5TyZ4_e6zl-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="-265" y="656" width="10" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
