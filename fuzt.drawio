@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T00:08:40.640Z" agent="5.0 (X11)" version="14.9.0" etag="YObQjVDYPIKhfhzJDhyf" type="github"><diagram id="dVRv-9KxZzZ8-ldtPb2S">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-21T02:04:42.681Z" agent="5.0 (X11)" etag="PX2-h5rLk1UAhe_3Xrfc" version="14.9.0" type="github">
+  <diagram id="dVRv-9KxZzZ8-ldtPb2S" name="Page-1">
+    <mxGraphModel dx="1185" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-28" value="message exceptions pool" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="309" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-4" value="" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;image=https://logodownload.org/wp-content/uploads/2017/11/discord-logo-4-1.png" vertex="1" parent="1">
+          <mxGeometry x="39" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-6" value="&lt;div&gt;Message&lt;/div&gt;&lt;div&gt;Handler&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="179" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289" y="80" as="sourcePoint" />
+            <mxPoint x="329" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-8" value="&lt;div&gt;message&lt;/div&gt;&lt;div&gt;validations&lt;br&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="339" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-9" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="389" y="110" as="sourcePoint" />
+            <mxPoint x="389" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-15" value="&lt;div&gt;error in&lt;/div&gt;&lt;div&gt;message handler&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-22" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449" y="80" as="sourcePoint" />
+            <mxPoint x="489" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-24" value="dispatch&lt;div&gt;command&lt;br&gt;&lt;/div&gt;" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="499" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-32" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609" y="80" as="sourcePoint" />
+            <mxPoint x="649" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-33" value="command&lt;br&gt;validations" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="659" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-34" value="command exceptions pool" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="629" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-35" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="708.5799999999999" y="110" as="sourcePoint" />
+            <mxPoint x="708.5799999999999" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-36" value="&lt;div&gt;error in&lt;/div&gt;&lt;div&gt;command&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="659" y="190" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Limtg3SNCSjRNfk5KUKk-41" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="80" as="sourcePoint" />
+            <mxPoint x="169" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
