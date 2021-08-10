@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-10T20:55:17.578Z" agent="5.0 (X11)" etag="GVHpu7hRokK82II0bgmi" version="14.9.6" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-08-10T21:12:22.304Z" agent="5.0 (X11)" etag="se8YaAomiloM3JK1-uNY" version="14.9.6" type="github" pages="6">
   <diagram id="UVdLs39QvAgUc9avFC9k" name="register">
     <mxGraphModel dx="1422" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,6 +193,40 @@
         <mxCell id="P9lsVp5bcwjM5uKFtkle-1" parent="P9lsVp5bcwjM5uKFtkle-0" />
         <mxCell id="P9lsVp5bcwjM5uKFtkle-2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="P9lsVp5bcwjM5uKFtkle-1">
           <mxGeometry x="40" y="40" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-3" value="/user/:id" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="P9lsVp5bcwjM5uKFtkle-1">
+          <mxGeometry x="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P9lsVp5bcwjM5uKFtkle-3">
+          <mxGeometry x="45" y="80" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-4" value="GET /user/:id" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="P9lsVp5bcwjM5uKFtkle-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="80" as="sourcePoint" />
+            <mxPoint x="160" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-7" value="&lt;div&gt;database&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="P9lsVp5bcwjM5uKFtkle-1">
+          <mxGeometry x="280" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P9lsVp5bcwjM5uKFtkle-7">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-13" value="get user" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="P9lsVp5bcwjM5uKFtkle-12" parent="P9lsVp5bcwjM5uKFtkle-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="90" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-14" value="&lt;div&gt;user data&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="P9lsVp5bcwjM5uKFtkle-12" parent="P9lsVp5bcwjM5uKFtkle-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P9lsVp5bcwjM5uKFtkle-15" value="200 user data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="P9lsVp5bcwjM5uKFtkle-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="162" y="178" as="sourcePoint" />
+            <mxPoint x="70" y="178" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
