@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T19:20:14.869Z" agent="5.0 (X11)" version="15.3.8" etag="7yr5WKFbjA-dLxG722_D" type="github"><diagram id="Km3g_U4HHgtGm2p4pc-B">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-29T22:48:02.853Z" agent="5.0 (X11)" etag="l1wT5GjmfwOMqY_PLXjb" version="15.3.8" type="github">
+  <diagram id="Km3g_U4HHgtGm2p4pc-B" name="Page-1">
+    <mxGraphModel dx="1732" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="36UCv5lST9ZfMXbtMrgT-5" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Application&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- application_id: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_commands(): Array&amp;lt;ApplicationCommand&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create_command(data: ??): ApplicationCommand&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_command(id: string): ApplicationCommand&lt;br&gt;+ edit_command(id: string, data: ??): ApplicationCommand&lt;br&gt;+ delete_command(id: string): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ bulk_overwrite_commands(data: Array&amp;lt;??&amp;gt;): Array&amp;lt;ApplicationCommand&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="480" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="36UCv5lST9ZfMXbtMrgT-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Guild&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- application_id: string&lt;br&gt;- guild_id: string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_commands(): Array&amp;lt;ApplicationCommand&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create_command(data: ??): ApplicationCommand&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_command(id: string): ApplicationCommand&lt;br&gt;+ edit_command(id: string, data: ??): ApplicationCommand&lt;br&gt;+ delete_command(id: string): boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ bulk_overwrite_commands(data: Array&amp;lt;??&amp;gt;): Array&amp;lt;ApplicationCommand&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_command_permissions(id: string): ApplicationCommandPermissions&lt;br&gt;+ edit_command_permissions(id:string, data: ??): ApplicationCommandPermissions&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_guild_command_permissions(): Array&amp;lt;ApplicationCommandPermissions&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ edit_guild_command_permissions(data: ??): Array&amp;lt;ApplicationCommandPermissions&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="480" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="36UCv5lST9ZfMXbtMrgT-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;ApplicationCommand&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="490" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="36UCv5lST9ZfMXbtMrgT-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Command&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ application_id: string&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_commands(): Array&amp;lt;ApplicationCommand&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ create_command(data: ??): ApplicationCommand&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_command(id: string): ApplicationCommand&lt;br&gt;+ edit_command(id: string, data: ??): ApplicationCommand&lt;br&gt;+ delete_command(id: string): boolean&lt;/p&gt;&amp;nbsp;+ bulk_overwrite_commands(data: Array&amp;lt;??&amp;gt;): Array&amp;lt;ApplicationCommand&amp;gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="230" width="460" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="36UCv5lST9ZfMXbtMrgT-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;GuildCommand&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ guild_id: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ get_command_permissions(id: string): ApplicationCommandPermissions&lt;br&gt;+ edit_command_permissions(id:string, data: ??): ApplicationCommandPermissions&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="480" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="36UCv5lST9ZfMXbtMrgT-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.463;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="36UCv5lST9ZfMXbtMrgT-12" target="36UCv5lST9ZfMXbtMrgT-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="440" as="sourcePoint" />
+            <mxPoint x="860" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36UCv5lST9ZfMXbtMrgT-18" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="36UCv5lST9ZfMXbtMrgT-14" target="36UCv5lST9ZfMXbtMrgT-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="714.0799999999999" y="505" as="sourcePoint" />
+            <mxPoint x="730.99" y="380.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
