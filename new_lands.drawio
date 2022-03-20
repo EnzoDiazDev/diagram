@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-20T15:04:04.867Z" agent="5.0 (Windows)" etag="GMk9sqz5qOM9A7wwS9LM" version="16.6.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-20T15:38:06.116Z" agent="5.0 (Windows)" etag="aOtAuqML5a0ryoHHbC7G" version="16.6.4" type="github" pages="2">
   <diagram id="yhS8XhCnnLIG0FYTGW0U" name="Page-1">
     <mxGraphModel dx="1422" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
         <mxCell id="fpZElYv_HC5Uxn4KfEgV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="fpZElYv_HC5Uxn4KfEgV-1" source="fpZElYv_HC5Uxn4KfEgV-12" target="fpZElYv_HC5Uxn4KfEgV-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fpZElYv_HC5Uxn4KfEgV-12" value="Desarrollar cliente jugable" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fpZElYv_HC5Uxn4KfEgV-1">
+        <mxCell id="fpZElYv_HC5Uxn4KfEgV-12" value="Desarrollar&lt;br&gt;cliente funcional" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fpZElYv_HC5Uxn4KfEgV-1">
           <mxGeometry x="360" y="760" width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="fpZElYv_HC5Uxn4KfEgV-15" value="&lt;div&gt;Lanzamiento&lt;/div&gt;&lt;div&gt;26/06&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="fpZElYv_HC5Uxn4KfEgV-1">
